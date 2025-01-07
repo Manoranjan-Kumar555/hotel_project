@@ -1,0 +1,21 @@
+// person.json
+{
+    "name": "Manoranja Kumar",
+    "age": 30,
+    "work": "chef",
+    "mobile": "9149158466",
+    "email": "manoranja@gmail.com",
+    "address": "Bihar",
+    "salary": 60000
+}
+
+// dish.json
+
+{
+    "name": "Spicy Chicken Wings",
+    "price": 150,
+    "taste": "spicy",
+    "is_drink": false,
+    "ingredients": ["chicken", "spice", "sauce"],
+    "num_sales": 10
+}
