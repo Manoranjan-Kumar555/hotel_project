@@ -3,6 +3,7 @@ const app = express();
 const fs = require('fs');
 const os = require('os');
 const db = require("./db");
+require('dotenv').config();
 
 
 const bodyParser = require('body-parser');
@@ -53,6 +54,7 @@ const menuRouter = require("./routes/MenuRoutes")
 app.use("/person", personRouter);
 app.use("/menuitem", menuRouter);
 
-app.listen(8000, () => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
     console.log("Server listening on port :- 8000 !");
 })
