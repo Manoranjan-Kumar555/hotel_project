@@ -45,4 +45,5 @@ router.get("/:testType", async(req, res) => {
     }
 })
 
+// comment add for testing Purposes
 module.exports = router;
